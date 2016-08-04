@@ -3,7 +3,9 @@ import os
 import commands
 
 print ("PYGR02 - Let there be light!\n")
+print ("This script is not useful anymore. Use PYGR03 instead.")
 
+'''
 files = commands.getoutput("ls -l").split("\n")
 del files[0] # First line, not useful
 
@@ -22,3 +24,4 @@ if(len(filesChanged) > 0):
         print (file)
 else:
     print ("Well... there's no file to change.")
+'''
