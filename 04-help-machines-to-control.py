@@ -3,7 +3,7 @@ import commands
 from Process import *
 from Info import *
 
-print ("PYGR03 - Help machines to control!\n")
+print ("PYGR04 - Help machines to control!\n")
 
 processes = commands.getoutput("ps aux").split("\n")
 del processes[0]
