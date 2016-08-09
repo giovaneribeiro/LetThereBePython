@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 class Process:
-    user = "USER"
+    user = "DEATH"
     pid = 0
     cpu = 0
     mem = 0
